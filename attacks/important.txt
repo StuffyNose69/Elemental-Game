@@ -1,0 +1,17 @@
+--- Action Variables ---
+
+actionType: Determines what type of action the action is. The following are the possible returns of this variable:
+"Attack" - An attack. No healing is done. Strictly based on damage.
+"Heal" - A heal. No damage is done to anyone. Strictly based on the "baseheal" variable.
+"Mixed" - Both an attack and a heal. Will deal damage to enemy and heal player.
+"Neither" - Could be changed later. Action is neither an attack or a heal.
+
+actionElement: The element of the action. If this variable returns "None", then it is a base attack with no elemental power behind it.
+
+basedmg: A number variable that determines the base damage of the attack without involving the players strength or intellegence.
+
+baseheal: A number variable that determines the base value of the heal.
+
+energycost / staminacost: The cost of either energy or stamina that it will take to use the action respectively.
+
+hitchance: The chance out of 100 that the attack will land or action will take place. Does not account for mobility.

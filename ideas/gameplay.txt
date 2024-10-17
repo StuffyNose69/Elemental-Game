@@ -1,0 +1,4 @@
+BATTLES:
+- 2 types of battles, campaign and arena
+- campaign will be something like the dungeon crawler game
+- arena will be against randomly generated elemental user

@@ -1,0 +1,22 @@
+--- OVERALL GAME IDEAS ---
+
+Game will be an elemental battle rpg. Player will choose a faction at start of game. Each faction will have elemental based attacks that coinside with a technique from that
+elemental faction. The player will also have physical stats and attacks. Player will start out with a faction, but not that factions technique. Each faction will have their
+own skill trees where player can unlock different actions based on faction.
+
+FACTIONS:
+Earth - Most versetile faction, consisting of both land and air actions.
+Water - Composed mainly of water and frost actions, but can utilize any liquid to extents.
+Fire - Consists of fire like abilities. Will be more fleshed out later.
+Electric - Will be the most powerful faction. Utilizes electricity and electric charges.
+Prism - Consists of light and dark abilities, derived from light as in sunlight, and dark as in a shadow.
+
+BASE STATS:
+Health - Base health.
+Strength - Physical attacks will utilize this stat to deal damage. Elemental attacks that require a physical blow will also utilize this.
+Stamina - Physical stamina that only physical attacks will drain. Will not replenish by itself.
+Intellegence - Elemental attacks and other "magic" abilities will use this for damage.
+Energy - Elemental abilities and other "magic" attacks will use this for cast ability. Think of it as mana. Will replenish.
+Mobility - Ability to dodge incoming attacks and neutralize opposing defensive measures.
+Poise - Essentially crit chance.
+Wisdom - Essentially crit damage.

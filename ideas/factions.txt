@@ -1,0 +1,49 @@
+EARTH: Most versetile faction, consisting of both land and air actions.
+Buffs: Health and Mobility
+Debuffs: Energy
+Attacks:
+- Rock Throw
+- Encase
+- Wind Blast
+- 
+
+
+WATER: Composed mainly of water and frost actions, but can utilize any liquid to extents.
+Buffs: Health and Intelligence
+Debuffs: Strength
+Attacks:
+- 
+
+
+FLAME: Consists of fire like abilities. Will be more fleshed out later.
+Buffs: Strength and Mobility
+Debuffs: Intelligence
+Attacks:
+- Hellblaze
+- Ignite
+- Detonation
+- Sun Chop
+- Crimson Moon
+
+
+ELECTRIC: Will be the most powerful faction. Utilizes electricity and electric charges.
+Buffs: Energy and Mobility
+Debuffs: Health
+Attacks:
+- Chain Lightning
+- Railgun
+- Charged Dash
+- Voltaic Slash
+
+
+PRISM: Consists of light and dark abilities, derived from light as in sunlight, and dark as in a shadow.
+Buffs: Energy and Strength
+Debuffs: Health
+Attacks:
+
+
+Earth is weak to FLAME
+Water is weak to ELECTRIC
+Flame is weak to WATER
+Electric is weak to EARTH
+PRISM is weak to PRISM
