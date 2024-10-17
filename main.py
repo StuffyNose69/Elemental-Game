@@ -7,7 +7,7 @@ from misc import colors, prints
 from attacks.physical import physicalcall
 from attacks.elemental import earthcall, watercall, flamecall, electriccall, prismcall
 from attacks.eattacks import eattackcall
-from gamemodes import battle
+from gamemodes import battle, faction_information
 from enemies import campaign
 from xp import baselevels, elementlevels
 
@@ -450,12 +450,14 @@ while True:
 
   if menu == "4": # game info display
     clear()
-    display = input("1: Game Info\n2: Credits\n\nSelect what info you want to see: ")
+    display = input("1: Game Information\n2: Credits\n3: Faction Information\n\nSelect what info you want to see: ")
     clear()
     if display == "1":
       print(f"GAME NAME: Elemental Battle Game\nGAME VERSION: v0.1.1 ALPHA\nPLAYER NAME: {name}\nFACTION: {faction}\nADMIN ENABLED: {admin}\n\n")
     if display == "2":
       print("This game was solo coded by Josh. This game takes inspiration from the following works:\n- Fire Force\n- Jujutsu Kaisen (the main inspiration)\n- Pokemon\n- Avatar: The Last Airbender\n")
       print("FOLLOW ME ON MY SOCIALS:\n- TWITTER: @StuffyNose69\n- YOUTUBE: @StuffyDev\n\n")
+    if display == "3":
+      faction_information.factionInfoScript()
 
 # --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
