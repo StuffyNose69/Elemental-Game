@@ -8,7 +8,7 @@ sleep = time.sleep
 def clear():
   os.system("cls")
 
-def earthFactionStartPrint(hp, mobility, energy):
+def earthFactionStartPrint(hp, strength, energy):
   print("     ╔═════════════════════════╗     ")
   print("╔════╣      EARTH FACTION      ╠════╗")
   print("╠════╩═════════════════════════╩════╣")
@@ -21,8 +21,8 @@ def earthFactionStartPrint(hp, mobility, energy):
   print("╠═══════════════════════════════════╣")
   print("║           STAT CHANGES:           ║")
   print(f"║         HP: {hp} ===> {hp + 25}          ║")
-  print(f"║         MOB: {mobility} ===> {mobility + 5}           ║")
-  print(f"║         ENG: {energy} ===> {energy - 5}           ║")
+  print(f"║         STR: {strength} ===> {strength + 5}           ║")
+  print(f"║         ENG: {energy} ===> {energy - 10}           ║")
   print("╚═══════════════════════════════════╝\n")
 
 def waterFactionStartPrint(hp, intelligence, strength):
@@ -40,7 +40,7 @@ def waterFactionStartPrint(hp, intelligence, strength):
   print("║           STAT CHANGES:           ║")
   print(f"║         HP: {hp} ===> {hp + 25}          ║")
   print(f"║         INT: {intelligence} ===> {intelligence + 5}           ║")
-  print(f"║         STR: {strength} ===> {strength - 5}           ║")
+  print(f"║         STR: {strength} ===> {strength - 10}           ║")
   print("╚═══════════════════════════════════╝\n")
 
 def flameFactionStartPrint(strength, mobility, intelligence):
@@ -60,7 +60,7 @@ def flameFactionStartPrint(strength, mobility, intelligence):
   print("║           STAT CHANGES:           ║")
   print(f"║         STR: {strength} ===> {strength + 5}           ║")
   print(f"║         MOB: {mobility} ===> {mobility + 5}           ║")
-  print(f"║         INT: {intelligence} ===> {intelligence - 5}           ║")
+  print(f"║         INT: {intelligence} ===> {intelligence - 10}           ║")
   print("╚═══════════════════════════════════╝\n")
 
 def electricFactionStartPrint(energy, mobility, hp):

@@ -43,6 +43,8 @@ physicalActionsBank = []
 elementActions = []
 elementActionsBank = []
 
+subclasses = []
+
 elementalCall = earthcall
 
 admin = False
@@ -52,34 +54,50 @@ name = input("What is your name?: ")
 factions = ["Earth", "Water", "Flame", "Electric", "Prism"]
 faction = random.choice(factions)
 
+subclassroll = random.randint(1,100)
+
 clear()
 print("You have been born into the...")
 sleep(1.5)
 
 if faction == "Earth":
-  prints.earthFactionStartPrint(hp, mobility, energy)
+  prints.earthFactionStartPrint(hp, strength, energy)
   hp += 25
-  mobility += 5
-  energy -= 5
+  strength += 5
+  energy -= 10
   elementalCall = earthcall
+  if subclassroll <= 50:
+    subclasses.append("Air")
+  if subclassroll <= 20:
+    subclasses.append("Sand")
 elif faction == "Water":
   prints.waterFactionStartPrint(hp, intelligence, strength)
   hp += 25
   intelligence += 5
-  strength -= 5
+  strength -= 10
   elementalCall = watercall
+  if subclassroll <= 50:
+    subclasses.append("Ice")
+  if subclassroll <= 10:
+    subclasses.append("Blood")
 elif faction == "Flame":
   prints.flameFactionStartPrint(strength, mobility, intelligence)
   strength += 5
   mobility += 5
-  intelligence -= 5
+  intelligence -= 10
   elementalCall = flamecall
+  if subclassroll <= 25:
+    subclasses.append("Lava")
 elif faction == "Electric":
   prints.electricFactionStartPrint(energy, mobility, hp)
   energy += 5
   mobility += 5
   hp -= 25
   elementalCall = electriccall
+  if subclassroll <= 25:
+    subclasses.append("Plasma")
+  if subclassroll == 1:
+    subclasses.append("Gamma")
 elif faction == "Prism":
   prints.prismFactionStartPrint(energy, strength, hp)
   energy += 5
